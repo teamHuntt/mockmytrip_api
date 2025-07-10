@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Mock.API
+/Mock.API/bin/Debug/net8.0
+/Mock.API/obj
+/Mock.Application/bin/Debug/net8.0
+/Mock.Application/obj
+/Mock.Repository/bin/Debug/net8.0
+/Mock.Repository/obj
+/Mock.Shared/bin/Debug/net8.0
+/Mock.Shared/obj
