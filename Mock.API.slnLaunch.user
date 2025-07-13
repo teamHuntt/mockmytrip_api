@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Mock.Gateway\\Mock.Gateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Mock.UserService\\Mock.UserService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Mock.AirlineService\\Mock.AirlineService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Mock.HospitalityService\\Mock.HospitalityService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
