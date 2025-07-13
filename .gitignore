@@ -11,3 +11,6 @@
 /Mock.Repository/obj
 /Mock.Shared/bin/Debug/net8.0
 /Mock.Shared/obj
+/Mock.Gateway/bin/Debug/net8.0
+/.vs/ProjectEvaluation
+/Mock.Gateway/obj
