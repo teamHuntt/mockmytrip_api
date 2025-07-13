@@ -14,3 +14,9 @@
 /Mock.Gateway/bin/Debug/net8.0
 /.vs/ProjectEvaluation
 /Mock.Gateway/obj
+/Mock.AirlineService/bin/Debug/net8.0
+/Mock.AirlineService/obj
+/Mock.HospitalityService/bin/Debug/net8.0
+/Mock.UserService/bin/Debug/net8.0
+/Mock.UserService/obj
+/Mock.HospitalityService/obj
