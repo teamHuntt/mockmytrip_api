@@ -7,13 +7,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure JWT auth directly from Vault
-await builder.Services.AddJwtAuthenticationFromVaultAsync(
-    issuer: "Mock.UserService",
-    audience: "Mock.Gateway"
-);
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
