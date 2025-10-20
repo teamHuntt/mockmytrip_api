@@ -20,3 +20,5 @@
 /Mock.UserService/bin/Debug/net8.0
 /Mock.UserService/obj
 /Mock.HospitalityService/obj
+/Mock.AuthService/obj
+/Mock.AuthService/Properties
