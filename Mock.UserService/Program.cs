@@ -1,18 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-// Configure JWT auth directly from Vault
-await builder.Services.AddJwtAuthenticationFromVaultAsync(
-    issuer: "Mock.UserService",
-    audience: "Mock.Gateway"
-);
-
 
 var app = builder.Build();
 
